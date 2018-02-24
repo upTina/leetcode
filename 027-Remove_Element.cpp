@@ -8,5 +8,5 @@ public:
 		return nums.size();
     }
 };
-//很简单.虽然只需要返回最后元素的个数，但是leetcode会检查最后的nums里元素是什么
+//很简单.虽然只需要返回最后元素的个数，但是leetcode会检查最后的nums里元素是什么，如不符合要求，仍然是wrong answer。
 
