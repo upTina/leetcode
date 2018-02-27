@@ -40,7 +40,7 @@ public:
     int lengthOfLongestSubstring(string s) {
 		int m[256] = { 0 }, res = 0, left = 0;
 		for (int i = 0; i < s.size(); i++) {
-			if (m[s[i]] == 0 || m[s[i]] <= left) {
+			if (m[s[i]] == 0 || m[s[i]]-1 < left) {
 				res = max(res, i - left + 1);
 			}else {
 				left = m[s[i]];
