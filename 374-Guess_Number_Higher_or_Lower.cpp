@@ -23,3 +23,4 @@ public:
 };
 //其他代码都不变，mid = (low+high)/ 2就会超时，而mid = low+( high - low) / 2就会ac。
 //以后求中点，认准mid=low+(high-low)/2
+//一个更合理的解释是：计算low+high的时候可能会存在溢出的情况
