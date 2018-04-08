@@ -37,4 +37,4 @@ public:
 };
 
 //两个全新的数据类型，ostringstream和istringstream，可以理解为输入输出缓冲区？全局共同使用的两个变量。
-//ostringstream里可以输入进去‘ ’字符，而istringstream往外传的string类型时时候，会忽略空格键，和标准输入输出类似
+//ostringstream里可以输入进去‘ ’字符，而istringstream往外传的string类型时时候，会忽略空格键，和标准输入cin、输出cout类似
